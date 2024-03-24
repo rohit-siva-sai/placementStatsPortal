@@ -12,7 +12,7 @@ const MainPhoto = () => {
       <div className="relative ">
         <picture>
           <img
-            src="https://www.raghuenggcollege.com/wp-content/uploads/2023/06/hero-slider-2.jpg"
+            src="./hero-slider-2.jpg"
             className="opacity-90"
             alt=""
           />
