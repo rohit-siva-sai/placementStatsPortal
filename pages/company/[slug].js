@@ -30,7 +30,7 @@ const Slug = ({data}) => {
 
     
   return (
-    <div className='mx-16 my-16' >
+    <div className='md:mx-16 mx-4 md:my-16 mb-8 mt-2' >
       <ComMain company={company} />
       <PlacementData  placementData={company.placementData}  />
       <LineTotal  totalRecruitments={company.totalRecruitmenst}  />

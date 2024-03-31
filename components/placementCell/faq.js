@@ -71,7 +71,7 @@ const array = [
 
 const Faq = () => {
   return (
-    <div className="mx-40 my-16">
+    <div className="md:mx-40 mx-4 my-12 md:my-16">
       <p className="text-3xl font-bold pb-8 text-gray-800">FAQs</p>
       <div className="flex flex-col space-y-4">
         {array.map((item) => {
@@ -81,7 +81,7 @@ const Faq = () => {
       <div className="flex flex-col bg-gray-100 w-3/4 mx-auto py-12 mt-12 space-y-6 items-center">
         <p className="font-bold text-gray-800 text-2xl">Have questions?</p>
         <Link href={""}>
-          <div className="bg-yellow-400 text-lg px-10 w-fit py-2 font-semibold text-gray-800 hover:opacity-90 cursor-pointer rounded-sm">
+          <div className="bg-blue-400 text-white text-lg px-10 w-fit py-2 font-semibold  hover:opacity-90 cursor-pointer rounded-sm">
             Contact Us
           </div>
         </Link>

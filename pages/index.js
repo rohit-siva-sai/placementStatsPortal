@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main
-      className={`${inter.className}`}
+      className={`${inter.className} overflow-x-hidden`}
     >
        <div>
         <MainPhoto/>

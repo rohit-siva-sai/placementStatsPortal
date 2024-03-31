@@ -59,7 +59,7 @@ const UpcomingEvent = () => {
   };
 
   return (
-    <div className="mx-16 my-16">
+    <div className="md:mx-16 mx-4 my-8 md:my-16">
       <div>
         {upcomingEvents.length >= 1 && (
           <p className="recruit font-semibold text-blue-500  hover:scale-105 transition-all duration-300 hover:underline text-4xl cursor-pointer underline-offset-8 decoration-slate-500 text-center">
@@ -71,7 +71,7 @@ const UpcomingEvent = () => {
             There are no upcoming events yet
           </div>
         ) : (
-          <div className="grid grid-cols-3 mt-14 gap-x-12 border">
+          <div className="grid grid-cols-1 md:grid-cols-3 mt-14 md:gap-x-12  gap-y-16">
             {upcomingEvents?.map((item) => {
               return (
                 <div className="border pb-4 rounded-lg shadow-lg cursor-pointer  shadow-blue-400 hover:scale-105 duration-500 transition-all">
@@ -79,22 +79,22 @@ const UpcomingEvent = () => {
                     <img
                       src={urlFor(item?.image)?.url()}
                       alt=""
-                      className="rounded-t-xl"
+                      className="rounded-t-xl h-72 mx-auto w-full"
                     />
                   </picture>
                   <div className="py-2 px-4">
                     <p className="font-bold text-lg text-emerald-600">
-                      {configDate(item.evnetDate)}
+                      {configDate(item?.evnetDate)}
                     </p>
                     <div className="flex flex-col space-y-3 py-3">
-                      <p className="font-semibold text-gray-800 text-lg">
-                        {item.heading}
+                      <p className="font-semibold text-gray-800 text-base md:text-lg">
+                        {item?.heading}
                       </p>
-                      <p className="font-medium text-gray-600">
-                        {item.conductedBy}
+                      <p className="font-medium text-sm md:text-base text-gray-600">
+                        {item?.conductedBy}
                       </p>
-                      <div className="text-sm font-medium text-gray-500">
-                        <PortableText value={item.summary} />
+                      <div className="text-xs md:text-sm font-medium text-gray-500">
+                        <PortableText value={item?.summary} />
                       </div>
                     </div>
                   </div>

@@ -49,7 +49,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <div>
-      <div className="md:block hidden">
+      <div className="">
         <Navbar />
         <LoadingBar
           color="#3b82f6"
@@ -60,9 +60,9 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
         <Footer />
       </div>
-      <div className="text-center font-semibold text-gray-600 py-4 text-lg md:hidden block">
+      {/* <div className="text-center font-semibold text-gray-600 py-4 text-lg md:hidden block">
         Please view in Laptop
-      </div>
+      </div> */}
     </div>
   );
 }

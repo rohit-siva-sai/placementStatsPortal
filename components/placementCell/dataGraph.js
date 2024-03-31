@@ -62,13 +62,13 @@ const data2 = {
 
 const DataGraph = () => {
   return (
-    <div className="my-16 mx-16">
+    <div className="md:my-16 my-12 mx-4 md:mx-16">
       <div>
-        <p className="recruit font-semibold text-blue-500  hover:scale-105 transition-all duration-300 hover:underline text-4xl cursor-pointer underline-offset-8 decoration-slate-500 text-center">
+        <p className="recruit font-semibold text-blue-500  hover:scale-105 transition-all duration-300 hover:underline text-xl md:text-4xl cursor-pointer underline-offset-8 decoration-slate-500 text-center">
           Our Impeccabale Placement Record Over The Years
         </p>
 
-        <div className="grid grid-cols-2 gap-x-24 mt-12 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-0 md:gap-x-24 mt-12 ">
           <div className="border shadow-lg shadow-blue-200 py-4 rounded-2xl flex flex-col space-y-8  px-6">
             <p className="font-bold text-center text-xl text-gray-600">
               Companies Recruiting at Raghu College

@@ -11,15 +11,15 @@ const RecruitProcess = ({ recruitProcess }) => {
   // console.log('dds',recruitProcess);
 
   return (
-    <div className="mb-16 mt-24">
+    <div className="md:mb-16 my-12 md:mt-24 overflow-x-hidden">
       <div>
-      <p className="recruit font-semibold text-blue-500  hover:scale-105 transition-all duration-300 hover:underline text-4xl cursor-pointer underline-offset-8 decoration-slate-500 text-center">
+      <p className="recruit font-semibold text-blue-500  hover:scale-105 transition-all duration-300 hover:underline text-3xl md:text-4xl cursor-pointer underline-offset-8 decoration-slate-500 text-center">
          Recruitment Process
       </p>
 
-      <div className="mt-16">
+      <div className="md:mt-16 mt-12">
       <VerticalTimeline lineColor="#60a5fa" >
-          {recruitProcess.map((item, index) => {
+          {recruitProcess?.map((item, index) => {
             return (
               <VerticalTimelineElement
                 className="vertical-timeline-element--work  "

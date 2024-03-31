@@ -14,7 +14,7 @@ const FaqCard = ({ main, text }) => {
         }}
       >
         <p
-          className={`text-lg font-semibold ${
+          className={`md:text-lg  font-semibold ${
             show ? "text-white" : "group-hover:text-white"
           } `}
         >
@@ -27,7 +27,7 @@ const FaqCard = ({ main, text }) => {
         )}
       </div>
       {show && (
-        <div className={`py-8 px-8 bg-gray-100 rounded-b font-semibold`}>
+        <div className={`py-8 px-8 bg-gray-100 rounded-b shadow-lg md:shadow-md md:shadow-blue-400 shadow-blue-400 font-semibold`}>
           {text}
         </div>
       )}

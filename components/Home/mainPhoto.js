@@ -13,11 +13,11 @@ const MainPhoto = () => {
         <picture>
           <img
             src="./hero-slider-2.jpg"
-            className="opacity-90"
+            className="opacity-90 md:h-auto h-56 "
             alt=""
           />
         </picture>
-        <div className="absolute top-0 right-1"  data-aos="fade-down" data-aos-duration="8000"  >
+        <div className="absolute top-0 right-1  md:block hidden"  data-aos="fade-down" data-aos-duration="8000"  >
           <div className="w-2 h-20 absolute top-0 right-[650px] bg-orange-500 " data-aos="fade-down" data-aos-duration="4000" >
             <picture>
               <img
@@ -27,7 +27,7 @@ const MainPhoto = () => {
               />
             </picture>
           </div>
-          <div className="bg-gray-900/20 rounded-xl text-white absolute  right-[450px] top-16 font-semibold w-[400px] h-fit p-8 swing  " data-aos="fade-up" data-aos-duration="4000"  >
+          <div className="bg-gray-900/20 rounded-xl text-white absolute right-[450px] top-16 font-semibold w-[400px] h-fit p-8 swing  " data-aos="fade-up" data-aos-duration="4000"  >
             <div className="relative ">
               <div className="absolute -top-6 left-[148px] shadow-md shadow-gray-500 w-8 h-8 rounded-full bg-stone-600">
                 <picture>

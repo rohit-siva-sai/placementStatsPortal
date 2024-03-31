@@ -104,27 +104,42 @@ const MainPhoto = () => {
     <div>
       <div className="relative">
         <picture>
-          <img
-            src="./recruiting.jpg"
-            alt=""
-            className="w-full h-[580px]"
-          />
+          <img src="./recruiting.jpg" alt="" className="w-full md:h-[580px] h-72" />
         </picture>
         <div>
-          <div className="absolute top-24 left-[50%] -translate-x-[50%] bg-gray-900/40 px-8 py-4 text-white font-bold text-6xl rounded-xl ">
+          <div className="absolute top-24 left-[50%] -translate-x-[50%] bg-gray-900/40 px-8 py-4 text-white font-bold text-3xl md:w-fit w-full md:text-6xl rounded-xl text-center">
             Recruiting Companies
           </div>
-         
-          <div  className="py-2" >
-          <Marquee gradient={true} >
-            {array.map((item)=>{
+
+          <div className="py-2 md:hidden block">
+            <Marquee gradient={false}>
+              {array.map((item) => {
                 return (
-                    <picture>
-                        <img src={item.image} alt="" className="w-28 bg-transparent p" />
-                    </picture>
-                )
-            })}
-          </Marquee>
+                  <picture>
+                    <img
+                      src={item.image}
+                      alt=""
+                      className="md:w-28 w-16 bg-transparent "
+                    />
+                  </picture>
+                );
+              })}
+            </Marquee>
+          </div>
+          <div className="py-2 md:block hidden">
+            <Marquee gradient={true}>
+              {array.map((item) => {
+                return (
+                  <picture>
+                    <img
+                      src={item.image}
+                      alt=""
+                      className="w-28 bg-transparent "
+                    />
+                  </picture>
+                );
+              })}
+            </Marquee>
           </div>
         </div>
       </div>

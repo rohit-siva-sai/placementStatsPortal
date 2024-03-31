@@ -3,21 +3,27 @@ import Link from "next/link";
 import React from "react";
 import {
   BsBrowserChrome,
+  BsGlobe,
   BsInstagram,
   BsLinkedin,
   BsTwitterX,
 } from "react-icons/bs";
+import {
+  
+  BiGlobe,
+} from "react-icons/bi";
+import { FaGlobe } from "react-icons/fa";
 
 const ComMain = ({ company }) => {
   return (
-    <div className=" pb-16">
-      <div className="grid grid-cols-2 gap-x-8">
+    <div className=" md:pb-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-8 md:gap-y-0 mt-8 md:mt-0 gap-y-8">
         <picture className="self-center justify-self-center">
           <img src={company?.imageUrl} alt="" className="w-[500px]" />
         </picture>
-        <div className="flex flex-col space-y-12 self-center">
+        <div className="flex flex-col space-y-8 md:space-y-12 self-center">
           <div>
-            <p className="font-bold text-blue-400 text-4xl ">
+            <p className="font-bold text-blue-400 text-3xl md:text-4xl ">
               {company?.companyName}
             </p>
             <p className="font-medium text-gray-500">
@@ -32,7 +38,7 @@ const ComMain = ({ company }) => {
               Social Media Links
             </p>
             <div className="flex space-x-2">
-              <Link href={company.linkedin}>
+              <Link href={company?.linkedin}>
                 <div className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#0275b3] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 ">
                   <BsLinkedin className="text-xl" />
                 </div>
@@ -49,7 +55,8 @@ const ComMain = ({ company }) => {
               </Link>
               <Link href={company?.Website}>
                 <div className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#ff4646] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 ">
-                  <BsBrowserChrome className="text-xl" />
+                  {/* <BsBrowserChrome className="text-xl" /> */}
+                  <BsGlobe className="text-xl" />
                 </div>
               </Link>
             </div>

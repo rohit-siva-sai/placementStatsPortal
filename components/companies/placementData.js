@@ -55,13 +55,13 @@ const PlacementData = ({placementData}) => {
 
 
   return (
-    <div className="mt-4 mb-12 mx-16">
+    <div className="md:mt-4 mt-12 mb-12 md:mx-16 ">
     <div>
-      <p className="recruit font-semibold text-blue-500 hover:scale-105 transition-all duration-300 hover:underline text-4xl cursor-pointer underline-offset-8 decoration-slate-500 text-center">
+      <p className="recruit font-semibold text-blue-500 hover:scale-105 transition-all duration-300 hover:underline text-3xl md:text-4xl cursor-pointer underline-offset-8 decoration-slate-500 text-center">
         Placement Summary
       </p>
 
-      <div className="grid grid-cols-3 gap-x-10 mt-12 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-y-10 md:gap-y-0 md:gap-x-10  mt-8 md:mt-12 ">
         <div className="border shadow-lg shadow-blue-200 py-4 rounded-2xl flex flex-col space-y-8  px-6">
           <Pie data={data1} className="" />
           <div className="font-semibold text-gray-700 flex flex-col space-y-2 text-xl  text-center ">

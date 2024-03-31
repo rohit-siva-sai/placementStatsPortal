@@ -14,13 +14,13 @@ const builder = imageUrlBuilder(client);
 const Alumni = ({ alumni }) => {
   const urlFor = (source) => builder.image(source);
   return (
-    <div className="">
+    <div className="md:mx-0 mx-4">
       <div>
-        <p className="recruit font-semibold text-blue-500  hover:scale-105 transition-all duration-300 hover:underline text-4xl cursor-pointer underline-offset-8 decoration-slate-500 text-center">
+        <p className="recruit font-semibold text-blue-500  hover:scale-105 transition-all duration-300 hover:underline text-3xl md:text-4xl cursor-pointer underline-offset-8 decoration-slate-500 text-center">
           Alumni Selected
         </p>
-        <div className="mt-12 grid grid-cols-3 place-items-center  ">
-          {alumni.map((item) => {
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-y-10 md:gap-y-10 place-items-center  ">
+          {alumni?.map((item) => {
             return (
               <div className="relative cursor-pointer">
                 <div class="bg-sky-500 rounded-2xl w-fit shadow-lg shadow-sky-500 outline  outline-white -outline-offset-8">
