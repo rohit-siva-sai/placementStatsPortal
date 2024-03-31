@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Pie, PolarArea } from "react-chartjs-2";
+import { Bar, Line, Pie, PolarArea } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 const UserData = [
   {
@@ -38,7 +38,7 @@ const data1 = {
   datasets: [
     {
       label: "No of Students Placed",
-      data: [1005, 500, 200, 100, 50],
+      data: [46, 79, 27, 73, 7],
       backgroundColor: [
         "rgb(255, 99, 132)",
         "rgb(75, 192, 192)",
@@ -54,7 +54,7 @@ const data2 = {
   datasets: [
     {
       label: "No of Students Placed",
-      data: [1005, 500, 200, 100, 50],
+      data: [112, 143, 77, 130, 11],
       backgroundColor: [
         "rgb(255, 99, 132)",
         "rgb(75, 192, 192)",
@@ -70,7 +70,7 @@ const data3 = {
   datasets: [
     {
       label: "No of Students Placed",
-      data: [1005, 500, 200, 100, 50],
+      data: [449, 549, 143, 218, 15],
       backgroundColor: [
         "rgb(255, 99, 132)",
         "rgb(75, 192, 192)",

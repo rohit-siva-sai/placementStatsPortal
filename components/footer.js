@@ -82,32 +82,32 @@ const Footer = () => {
           <div className="flex space-x-2">
             <Link href={""}>
               <div
-                href="/"
-                class="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#3964ef] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 "
+              
+                className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#3964ef] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 "
               >
                 <BsFacebook className="text-xl" />
               </div>
             </Link>
             <Link href={""}>
               <div
-                href="/"
-                class="group flex justify-center p-2 rounded-md drop-shadow-xl  bg-gradient-to-br from-purple-400 to-pink-500 text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 "
+                
+                className="group flex justify-center p-2 rounded-md drop-shadow-xl  bg-gradient-to-br from-purple-400 to-pink-500 text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 "
               >
                 <BsInstagram className="text-xl" />
               </div>
             </Link>
             <Link href={""}>
               <div
-                href="/"
-                class="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#090307] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 "
+                
+                className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#090307] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 "
               >
                 <BsTwitterX className="text-xl" />
               </div>
             </Link>
             <Link href={""}>
               <div
-                href="/"
-                class="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#ff4646] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 "
+                
+                className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#ff4646] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 "
               >
                 <BsYoutube className="text-xl" />
               </div>

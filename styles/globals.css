@@ -19,7 +19,8 @@
 
 .recruit{
   font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 2px 1px 3px rgb(0, 0, 0)
+  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.43)
+  /* text-shadow: 0 1px 0 #dd1010, 0 2px 0 #f707db, 0 3px 0 #09e01b, 0 4px 0 #ffcc00, 0 5px 0 #fd0202, 0 6px 0 #01f9aa, 0 7px 0 #2efb00, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3); */
 }
 
 .swing {
