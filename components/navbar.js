@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link href="/placementDesk">
             <div className="mr-8 hover:text-blue-500  font-semibold">Placement cell</div>
           </Link>
-          <Link href="/profiles">
+          <Link href="/alumniProfiles">
             <div className="mr-8 hover:text-blue-500  font-semibold">Alumni Profile</div>
           </Link>
           <Link href="/newsandEvents">

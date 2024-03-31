@@ -22,10 +22,10 @@ const AlumniProfiles = ({ alumni }) => {
     store.updateAllProfiles,
   ]);
 
-  // useEffect(() => {
-  //   updateProfiles(alumni);
-  //   updateAllProfiles(alumni);
-  // },[alumni]);
+  useEffect(() => {
+    updateProfiles(alumni);
+    updateAllProfiles(alumni);
+  },[alumni]);
 
   return (
     <div>

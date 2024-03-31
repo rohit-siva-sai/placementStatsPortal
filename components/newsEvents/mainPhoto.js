@@ -6,7 +6,7 @@ const MainPhoto = () => {
       <div className="relative">
         <picture>
           <img
-            src="https://circulareconomy.europa.eu/themes/custom/cecon_foundation/images/events.jpg"
+            src="./events.jpg"
             alt=""
             className="w-full h-[700px]"
           />

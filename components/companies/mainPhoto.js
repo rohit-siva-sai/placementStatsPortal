@@ -105,7 +105,7 @@ const MainPhoto = () => {
       <div className="relative">
         <picture>
           <img
-            src="https://www.buzzybrains.com/images/Software-Development-banner.jpg"
+            src="./recruiting.jpg"
             alt=""
             className="w-full h-[580px]"
           />

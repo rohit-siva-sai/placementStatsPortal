@@ -5,7 +5,7 @@ const MainPhoto = () => {
       <div className="relative">
         <picture>
           <img
-            src="https://www.bucks.edu/media/bcccmedialibrary/foundation/images/GettyImages-1170727252.jpg"
+            src="./alumni.jpg"
             alt=""
             className="w-full h-[700px]"
           />

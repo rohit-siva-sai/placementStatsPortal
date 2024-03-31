@@ -6,7 +6,7 @@ const MainPhoto = () => {
       <div className="relative">
         <picture>
           <img
-            src="https://netcampus.in/wp-content/uploads/2020/08/placement-cell-module-banner.png"
+            src="./placement.png"
             alt=""
             className="w-full h-[650px] "
           />
