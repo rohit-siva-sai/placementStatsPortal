@@ -53,9 +53,9 @@ const ComMain = ({ company }) => {
                   <BsTwitterX className="text-xl" />
                 </div>
               </Link>
-              <Link href={company?.Website}>
+              <Link href={`${company?.Website}`}>
                 <div className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#ff4646] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 ">
-                  {/* <BsBrowserChrome className="text-xl" /> */}
+                  
                   <BsGlobe className="text-xl" />
                 </div>
               </Link>

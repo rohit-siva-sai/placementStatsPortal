@@ -65,21 +65,21 @@ const PlacementData = ({placementData}) => {
         <div className="border shadow-lg shadow-blue-200 py-4 rounded-2xl flex flex-col space-y-8  px-6">
           <Pie data={data1} className="" />
           <div className="font-semibold text-gray-700 flex flex-col space-y-2 text-xl  text-center ">
-            <p className="text-lg text-gray-500">Average Package: 3.3 LPA</p>
+            {/* <p className="text-lg text-gray-500">Average Package: 3.3 LPA</p> */}
             <p>2020 Passout Placement Summary</p>
           </div>
         </div>
         <div className="shadow-lg shadow-blue-200 py-4 rounded-2xl flex flex-col space-y-8 px-6">
           <Pie data={data2} className="" />
           <div className="font-semibold text-gray-700 text-xl flex flex-col space-y-2  text-center ">
-            <p className="text-lg text-gray-500">Average Package: 3.6 LPA</p>
+            {/* <p className="text-lg text-gray-500">Average Package: 3.6 LPA</p> */}
             <p>2021 Passout Placement Summary</p>
           </div>
         </div>
         <div className="shadow-lg shadow-blue-200 py-4 rounded-2xl flex flex-col space-y-8 px-6">
           <Pie data={data3} className="" />
           <div className="font-semibold text-gray-700 text-xl flex flex-col space-y-2  text-center ">
-            <p className="text-lg text-gray-500">Average Package: 4 LPA</p>
+            {/* <p className="text-lg text-gray-500">Average Package: 4 LPA</p> */}
             <p>2022 Passout Placement Summary</p>
           </div>
         </div>

@@ -77,7 +77,7 @@ const PastEvent = () => {
                     <img
                       src={urlFor(item?.image)?.url()}
                       alt=""
-                      className="rounded-t-xl"
+                      className="rounded-t-xl h-72 mx-auto w-full"
                     />
                   </picture>
                   <div className="py-2 px-4">

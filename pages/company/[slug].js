@@ -19,7 +19,8 @@ const Slug = ({data}) => {
   const [company,setCompany] = useState(data[0])
     const [companies] = useData((store) => [store.companies])
 
-
+//  console.log('data',data);
+ 
     const router = useRouter()
 
 //     useEffect(()=>{
@@ -32,11 +33,11 @@ const Slug = ({data}) => {
   return (
     <div className='md:mx-16 mx-4 md:my-16 mb-8 mt-2' >
       <ComMain company={company} />
-      <PlacementData  placementData={company.placementData}  />
-      <LineTotal  totalRecruitments={company.totalRecruitmenst}  />
+      <PlacementData  placementData={company?.placementData}  />
+      <LineTotal  totalRecruitments={company?.totalRecruitmenst}  />
       <SkillsRequired skills={company?.skills}/>
-      <RecruitProcess recruitProcess={company.recruitProcess} />
-      <Alumni alumni={company.alumniSelected} />
+      <RecruitProcess recruitProcess={company?.recruitProcess} />
+      <Alumni alumni={company?.alumniSelected} />
     </div>
   )
 }

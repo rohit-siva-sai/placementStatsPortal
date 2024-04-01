@@ -57,8 +57,8 @@ const skills = [
     checked: false,
   },
   {
-    label: "Byjus's",
-    value: "Byjus's",
+    label: "Byju's",
+    value: "Byju's",
     checked: false,
   },
   {
@@ -69,6 +69,16 @@ const skills = [
   {
     label: "Zensar",
     value: "Zensar",
+    checked: false,
+  },
+  {
+    label: "DXC",
+    value: "dxc",
+    checked: false,
+  },
+  {
+    label: "PEGA",
+    value: "pega",
     checked: false,
   },
 ];

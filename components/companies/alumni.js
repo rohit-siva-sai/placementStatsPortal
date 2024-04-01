@@ -31,7 +31,7 @@ const Alumni = ({ alumni }) => {
                           <img
                             src={urlFor(item?.image)?.url()}
                             alt=""
-                            className="rounded-xl"
+                            className="rounded-xl w-40"
                           />
                         </picture>
                         <div className={`bg-white rounded-xl  w-fit `}>
