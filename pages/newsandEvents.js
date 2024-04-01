@@ -35,7 +35,7 @@ const NewsandEvents = ({ news }) => {
         b.evnetDate &&
         Number(new Date(a.evnetDate).getTime()) - Number(new Date(b.evnetDate).getTime())
     );
-    console.log("ssdsd", Number(new Date(upEvents[0].evnetDate).getTime()) );
+    // console.log("ssdsd", Number(new Date(upEvents[0].evnetDate).getTime()) );
 
     updatUpcomingEvents(sortedUpEvents);
 
@@ -52,7 +52,7 @@ const NewsandEvents = ({ news }) => {
         b.evnetDate &&
         Number(new Date(b.evnetDate).getTime()) - Number(new Date(a.evnetDate).getTime())
     );
-    console.log("ssdsd", Number(new Date(upEvents[0].evnetDate).getTime()) );
+    // console.log("ssdsd", Number(new Date(upEvents[0].evnetDate).getTime()) );
 
    
     updatePastEvents(sortedPastEvents);

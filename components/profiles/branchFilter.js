@@ -88,7 +88,7 @@ const BranchFilter = () => {
     //   all.push({skill: user.skill,name: item.username})
     // );
     // });
-    console.log("sddsds", updatedList);
+    // console.log("sddsds", updatedList);
 
     if (skillsChecked.length >= 1) {
       const list = updatedList.filter((item) => {

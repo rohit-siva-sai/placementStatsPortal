@@ -35,7 +35,7 @@ export default function App({ Component, pageProps }) {
 
   useEffect(() => {
     fetchCompanies();
-    console.log("asasas", companies);
+    // console.log("asasas", companies);
   }, [router]);
 
   useEffect(() => {
