@@ -8,7 +8,7 @@ const Listing = () => {
   const [filterComapanies, setFilterCompanies] = useState(companies);
   const filterComapany = (value) => {
     const data = companies.filter((item) =>
-      item.companyName.toLowerCase().includes(value)
+      item.companyName.toLowerCase().includes(value.toLowerCase())
     );
     setFilterCompanies(data);
   };
