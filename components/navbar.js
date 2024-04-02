@@ -23,7 +23,7 @@ const Navbar = () => {
             <div>
               <picture>
                 <img
-                  src="https://th.bing.com/th/id/OIG1.CPFhh3OU9YYT8zRA04QT?pid=ImgGn"
+                  src="./webLogo.jpeg"
                   alt=""
                   className="md:w-12 w-10 rounded-full"
                 />

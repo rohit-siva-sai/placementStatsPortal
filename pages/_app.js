@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import { useData } from "@/useStore/useData";
 import { createClient } from "@sanity/client";
 import { Chart as ChartJS } from "chart.js/auto";
+import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import LoadingBar from "react-top-loading-bar";
@@ -49,6 +50,19 @@ export default function App({ Component, pageProps }) {
 
   return (
     <div>
+      <NextSeo
+        title="Placements Stats"
+        description="placement Stats shows the placement statistics and tarining of the raghu engineering collge and shows news and evenets adn all alumnin profiles of the raghu engineeering college"
+        additionalLinkTags={[
+          {
+            rel: "icon",
+            href: "./webLogo.jpeg",
+          },
+        ]}
+      
+        icon="./webLogo.jpeg"
+       
+      />
       <div className="">
         <Navbar />
         <LoadingBar

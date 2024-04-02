@@ -78,14 +78,14 @@ const Faq = () => {
           return <FaqCard main={item.question} text={item.answer} />;
         })}
       </div>
-      <div className="flex flex-col bg-gray-100 w-3/4 mx-auto py-12 mt-12 space-y-6 items-center">
+      {/* <div className="flex flex-col bg-gray-100 w-3/4 mx-auto py-12 mt-12 space-y-6 items-center">
         <p className="font-bold text-gray-800 text-2xl">Have questions?</p>
         <Link href={""}>
           <div className="bg-blue-400 text-white text-lg px-10 w-fit py-2 font-semibold  hover:opacity-90 cursor-pointer rounded-sm">
             Contact Us
           </div>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

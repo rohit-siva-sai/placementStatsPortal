@@ -9,17 +9,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main
-      className={`${inter.className} overflow-x-hidden`}
-    >
-       <div>
-        <MainPhoto/>
-        <Companies/>
-        <AluminiWork/>
-        <HireGraph/>
-       </div>
+    <main className={`${inter.className} overflow-x-hidden`}>
+      <div>
+        <MainPhoto />
+        <Companies />
+        <AluminiWork />
+        <HireGraph />4
+       
+      </div>
     </main>
-   
-     
   );
 }

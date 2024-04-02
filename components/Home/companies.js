@@ -103,7 +103,7 @@ const array = [
     image: "",
   },
   {
-    link: "",
+    link: "pega",
     image:
       "https://www.raghuenggcollege.com/wp-content/uploads/2023/06/Asset-39-1.png",
   },

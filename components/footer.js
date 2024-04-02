@@ -29,7 +29,7 @@ const Footer = () => {
               Placement Stats
             </p>
            </Link>
-           <Link href={""}>
+           <Link href={"https://www.raghuenggcollege.com/"}>
 
             <p className="font-semibold text-gray-800 text-lg hover:text-blue-400">
               Raghu Engineering College
@@ -86,7 +86,7 @@ const Footer = () => {
         <div className="flex flex-col space-y-2 ">
           <p className="font-medium text-gray-800 ">Follow Us on</p>
           <div className="flex space-x-2">
-            <Link href={""}>
+            <Link href={"https://www.facebook.com/RaghuEduInstitutions/"}>
               <div
               
                 className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#3964ef] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 "
@@ -94,7 +94,7 @@ const Footer = () => {
                 <BsFacebook className="text-xl" />
               </div>
             </Link>
-            <Link href={""}>
+            <Link href={"https://www.instagram.com/raghu_educational_institutions/?hl=en"}>
               <div
                 
                 className="group flex justify-center p-2 rounded-md drop-shadow-xl  bg-gradient-to-br from-purple-400 to-pink-500 text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 "
@@ -102,7 +102,7 @@ const Footer = () => {
                 <BsInstagram className="text-xl" />
               </div>
             </Link>
-            <Link href={""}>
+            <Link href={"https://twitter.com/Raghuinstitute"}>
               <div
                 
                 className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#090307] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 "
@@ -110,7 +110,7 @@ const Footer = () => {
                 <BsTwitterX className="text-xl" />
               </div>
             </Link>
-            <Link href={""}>
+            <Link href={"https://www.youtube.com/channel/UCVtilMN7pNgH16jDur00V0g"}>
               <div
                 
                 className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#ff4646] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 "
@@ -118,7 +118,7 @@ const Footer = () => {
                 <BsYoutube className="text-xl" />
               </div>
             </Link>
-            <Link href={""}>
+            <Link href={"https://www.raghuenggcollege.com/"}>
                 <div className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#3c3b3be4] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 ">
                   {/* <BsBrowserChrome className="text-xl" /> */}
                   <BsGlobe className="text-xl" />
